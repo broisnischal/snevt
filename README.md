@@ -34,3 +34,5 @@ Snevt is a simple Chrome extension that allows you to easily navigate to your fa
 | tt  | https://www.tiktok.com    |
 | gpt | https://chat.openai.com/  |
 | in  | https://www.linkedin.com  |
+
+There are lots of websites, and you can also add the one which you prefer!
