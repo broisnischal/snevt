@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Snevt",
+  "version": "1.0",
+  "description": "Redirects shortcodes to their corresponding URLs",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "omnibox": {
+    "keyword": ":"
+  },
+  "action": {
+    "default_title": "Snevt",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "icons": {
+    "16": "img/iconbg.png",
+    "32": "img/iconbg.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  },
+  "permissions": ["tabs", "storage", "webNavigation", "webRequest", "favicon", "activeTab"],
+  "web_accessible_resources": [
+    {
+      "resources": ["help.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
