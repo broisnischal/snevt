@@ -8,5 +8,16 @@
   gm: "https://mail.google.com",
   pi: "https://www.pinterest.com",
   tt: "https://www.tiktok.com",
-  gpt: "https://chat.openai.com/"
+  gpt: "https://chat.openai.com/",
+  "claude": "https://claude.ai/",
+  "deepseek": "https://chat.deepseek.com/",
+  "grok": "https://x.com/grok",
+  "t3": "https://t3.gg/",
+  "pplx": "https://www.perplexity.ai/",
+  "gem": "https://gemini.google.com/",
+  "gpt": "https://chat.openai.com/",
+  "hug": "https://huggingface.co/chat/",
+  "cohere": "https://chat.cohere.com/",
+  "mistral": "https://chat.mistral.ai/",
+  "pi": "https://pi.ai/"
 }
